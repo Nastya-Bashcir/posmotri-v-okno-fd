@@ -72,7 +72,7 @@ ol {
   width: 711px;
 }
 .content__list-container {
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
   position: relative;
 }
@@ -261,6 +261,9 @@ ol {
 }
 .content__card-link_current {
   background-color: #545050;
+}
+.content__card-link:active { 
+  background-color: #545050; 
 }
 .content__card-link:hover {
   text-decoration: underline;
